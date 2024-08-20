@@ -1,3 +1,5 @@
+![Explosive success!](/resources/skill_exp_str.png "Explosive success") ![Five Rings!](/resources/l5r_logo.png "Five Rings") ![Full of opportunity!](/resources/ring_opp.png "Opportunity")
+
 # L5R Dice Roller Telegram Bot
 
 A Telegram bot designed to facilitate dice rolls for the Legend of the Five Rings (L5R) role-playing game. This bot simulates the rolling of L5R dice, including handling special mechanics like exploding successes, advantages, and disadvantages. It also includes features for calculating probabilities of success in various scenarios.
