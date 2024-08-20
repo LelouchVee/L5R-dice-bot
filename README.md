@@ -12,6 +12,8 @@ Probability Calculation: Calculate the probability of achieving a given Target N
 Character Naming: Set a character name to personalize your roll outputs.
 Finalization: Finalize your roll to count successes, opportunities, and strife.
 
+Additionally, /resources folder provides all the necessary dice faces and symbols as separate .png files intended for use with the bot - but currently unavaible for actual use in realistic conditions due to Telegram's limitation of custom emoji to Fragment-enabled bots.
+
 ## Commands
 
 + /roll pr /r <XbYw>
