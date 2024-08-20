@@ -14,37 +14,42 @@ Finalization: Finalize your roll to count successes, opportunities, and strife.
 
 ## Commands
 
-/roll XbYw
++ /roll pr /r <XbYw>
+
 Rolls X Ring dice and Y Skill dice. Use the XbYw format to specify the number of each dice type.
 
-/add XbYw
++ /add or /a <XbYw>
+
 Adds additional Ring and Skill dice to the current roll.
 
-/reroll indices
++ /reroll or /rr <indices>
+
 Rerolls the dice at the specified indices (1-based). Can reroll both original and exploded dice.
 
-/keep indices
++ /keep or /k <indices>
+
 Keeps the dice at the specified indices (1-based). Use 0 to keep no dice.
 
-/remove indices
++ /remove or /rm <indices>
++ 
 Removes the dice at the specified indices (1-based).
 
-/explode indices
++ /explode or /e <indices>
 Explodes the dice at the specified indices (1-based) if they have an Explosive Success. The additional dice rolled do not count towards the Ring dice keep limit.
 
-/finalize
++ /finalize or /f
 Finalizes the result and displays the total number of Successes, Opportunities, and Strife.
 
-/probability XbYw TN [-a] [-d]
++ /probability or /r <XbYw TN [-a] [-d]>
 Calculates the probability of achieving a specified Target Number (TN) with X Ring dice and Y Skill dice. Use the -a flag for advantage (rerolling up to two dice without successes) and the -d flag for disadvantage (rerolling up to two dice with successes).
 
-/name <character_name>
++ /name or /n <character_name>
 Sets your character's name, which will be displayed with each roll result.
 
-/help
++ /help or /h
 Displays the list of available commands and their descriptions.
 
-/rule
++ /rule or /rules
 Explains the meaning of each dice symbol in L5R 5e and the sequence of a dice roll.
 
 ## Deployment
