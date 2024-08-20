@@ -26,7 +26,7 @@ Additionally, /resources folder provides all the necessary dice faces and symbol
 
 Sets user's character name, which will be displayed with each roll result.
 
-+ /roll pr /r <XbYw>
++ /roll or /r <XbYw>
 
 Rolls X Ring dice and Y Skill dice. Use the XbYw format to specify the number of each dice type.
 
