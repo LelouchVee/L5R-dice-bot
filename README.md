@@ -69,7 +69,8 @@ TBD
 ## Usage
 
 Once the bot is running, add it to your Telegram group or start a chat with it directly. Use the commands described above to roll dice, calculate probabilities, and manage your L5R game sessions.
-Main branch version of this bot is available at https://t.me/l5r_dice_bot
+
+Main branch version of this bot is currently self-hosted and available at https://t.me/l5r_dice_bot
 
 ## Contribution
 
