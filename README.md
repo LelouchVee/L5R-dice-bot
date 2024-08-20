@@ -6,17 +6,23 @@ A Telegram bot designed to facilitate dice rolls for the Legend of the Five Ring
 
 ## Features
 
-Dice Rolling: Roll a combination of Ring and Skill dice using the XbYw format.
-Exploding Dice: Automatically handles the L5R mechanic of rolling additional dice on explosive successes.
-Rerolling: Allows rerolling of dice before deciding which ones to keep.
-Advantages & Disadvantages: Adjust probabilities by rerolling based on character advantages (reroll up to two dice without successes) or disadvantages (reroll up to two dice with successes).
-Probability Calculation: Calculate the probability of achieving a given Target Number (TN) with a specific combination of Ring and Skill dice.
-Character Naming: Set a character name to personalize your roll outputs.
-Finalization: Finalize your roll to count successes, opportunities, and strife.
+- Dice Rolling: Roll a combination of Ring and Skill dice using the XbYw format.
+- Exploding Dice: Automatically handles the L5R mechanic of rolling additional dice on explosive successes.
+- Rerolling: Allows rerolling of dice before deciding which ones to keep.
+- Advantages & Disadvantages: Adjust probabilities by rerolling based on character advantages (reroll up to two dice without successes) or disadvantages (reroll up to two dice with successes).
+- Probability Calculation: Calculate the probability of achieving a given Target Number (TN) with a specific combination of Ring and Skill dice.
+- Character Naming: Set a character name to personalize your roll outputs.
+- Finalization: Finalize your roll to count successes, opportunities, and strife.
+
+Tracking of names and rolls is performed separately for each user by their profile name.
 
 Additionally, /resources folder provides all the necessary dice faces and symbols as separate .png files intended for use with the bot - but currently unavaible for actual use in realistic conditions due to Telegram's limitation of custom emoji to Fragment-enabled bots.
 
 ## Commands
+
++ /name or /n <Character \Name>
+
+Sets user's character name, which will be displayed with each roll result.
 
 + /roll pr /r <XbYw>
 
