@@ -46,7 +46,7 @@ Explodes the dice at the specified indices (1-based) if they have an Explosive S
   
 Finalizes the result and displays the total number of Successes, Opportunities, and Strife.
 
-+ /probability or /r <XbYw TN [-a] [-d]>
++ /probability or /p <XbYw TN [-a] [-d]>
   
 Calculates the probability of achieving a specified Target Number (TN) with X Ring dice and Y Skill dice. Use the -a flag for advantage (rerolling up to two dice without successes) and the -d flag for disadvantage (rerolling up to two dice with successes).
 
