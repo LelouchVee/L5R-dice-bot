@@ -2,7 +2,9 @@
 
 # L5R Dice Roller Telegram Bot
 
-A Telegram bot designed to facilitate dice rolls for the Legend of the Five Rings (L5R) role-playing game. This bot simulates the rolling of L5R dice, including handling special mechanics like exploding successes, advantages, and disadvantages. It also includes features for calculating probabilities of success in various scenarios.
+A Telegram bot for rolling of the Narrative Dice for Legend of the Five Rings (L5R) 5th Edition role-playing game by FFG. 
+
+This bot simulates the rolling of L5R dice, including handling special mechanics like exploding successes, advantages, and disadvantages. It also includes features for calculating probabilities of success in various scenarios.
 
 ## Features
 
