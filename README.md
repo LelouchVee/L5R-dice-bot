@@ -1,0 +1,66 @@
+# L5R Dice Roller Telegram Bot
+
+A Telegram bot designed to facilitate dice rolls for the Legend of the Five Rings (L5R) role-playing game. This bot simulates the rolling of L5R dice, including handling special mechanics like exploding successes, advantages, and disadvantages. It also includes features for calculating probabilities of success in various scenarios.
+
+## Features
+
+Dice Rolling: Roll a combination of Ring and Skill dice using the XbYw format.
+Exploding Dice: Automatically handles the L5R mechanic of rolling additional dice on explosive successes.
+Rerolling: Allows rerolling of dice before deciding which ones to keep.
+Advantages & Disadvantages: Adjust probabilities by rerolling based on character advantages (reroll up to two dice without successes) or disadvantages (reroll up to two dice with successes).
+Probability Calculation: Calculate the probability of achieving a given Target Number (TN) with a specific combination of Ring and Skill dice.
+Character Naming: Set a character name to personalize your roll outputs.
+Finalization: Finalize your roll to count successes, opportunities, and strife.
+
+## Commands
+
+/roll XbYw
+Rolls X Ring dice and Y Skill dice. Use the XbYw format to specify the number of each dice type.
+
+/add XbYw
+Adds additional Ring and Skill dice to the current roll.
+
+/reroll indices
+Rerolls the dice at the specified indices (1-based). Can reroll both original and exploded dice.
+
+/keep indices
+Keeps the dice at the specified indices (1-based). Use 0 to keep no dice.
+
+/remove indices
+Removes the dice at the specified indices (1-based).
+
+/explode indices
+Explodes the dice at the specified indices (1-based) if they have an Explosive Success. The additional dice rolled do not count towards the Ring dice keep limit.
+
+/finalize
+Finalizes the result and displays the total number of Successes, Opportunities, and Strife.
+
+/probability XbYw TN [-a] [-d]
+Calculates the probability of achieving a specified Target Number (TN) with X Ring dice and Y Skill dice. Use the -a flag for advantage (rerolling up to two dice without successes) and the -d flag for disadvantage (rerolling up to two dice with successes).
+
+/name <character_name>
+Sets your character's name, which will be displayed with each roll result.
+
+/help
+Displays the list of available commands and their descriptions.
+
+/rule
+Explains the meaning of each dice symbol in L5R 5e and the sequence of a dice roll.
+
+## Deployment
+
+TBD
+
+## Usage
+
+Once the bot is running, add it to your Telegram group or start a chat with it directly. Use the commands described above to roll dice, calculate probabilities, and manage your L5R game sessions.
+Main branch version of this bot is available at https://t.me/l5r_dice_bot
+
+## Contribution
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under CC Zero universal 1.0
+Legend of the Five Rings, the L5R logo, and the white FFG logo are trademarks of Fantasy Flight Games.
