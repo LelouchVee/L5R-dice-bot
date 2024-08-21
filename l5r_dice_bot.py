@@ -58,7 +58,7 @@ def format_roll_result(roll):
     result_lines = []
     for i, result in enumerate(roll):
         index = str(i + 1)
-        result_lines.append(f"{index}\. {result}")
+        result_lines.append(f"{index}. {result}")
     return "\n".join(result_lines)
 
 def format_kept_result(kept_dice, explosions):
@@ -77,7 +77,7 @@ def roll_dice(update: Update, ring_dice, skill_dice):
     user_roll_data['has_kept'] = False
     user_roll_data['explosions'] = {}
     result_message = f"{user_roll_data['name']} rolled:\n" + format_roll_result(user_roll_data['current_roll'])
-    update.message.reply_text(result_message, parse_mode='MarkdownV2')
+    update.message.reply_text(result_message, parse_mode='Markdown')
 
 def parse_and_roll_or_add(update: Update, args, add=False):
     if len(args) == 0:
